@@ -59,9 +59,12 @@ Run tests with coverage:
 python run_tests.py
 ```
 
+NOTE: Make sure you have created a logs folder under server or the test won't work
+
 ## Project Structure
 
 ```
+client/                 # React app (VITE)
 server/
 ├── app.py                 # Main Flask application
 ├── config.py             # Configuration settings

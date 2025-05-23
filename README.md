@@ -38,6 +38,14 @@ A Flask-based backend service for a conversational AI assistant using Amazon Bed
    python app.py
    ```
 
+5. **Run the React App**:
+   ```bash
+   cd client
+   npm install
+   npm run dev
+   ```
+   
+
 ## API Endpoints
 
 ### Chat
